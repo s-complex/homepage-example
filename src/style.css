@@ -1,0 +1,31 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  --apply: "m-0 text-lg bg-neutral-50";
+}
+
+a {
+  --apply: "text-sky-700 font-medium no-underline";
+}
+
+.typo {
+  h1 {
+    --apply: "font-semibold leading-snug text-4xl my-4";
+  }
+
+  h2 {
+    --apply: "font-semibold leading-snug text-3xl my-8";
+  }
+
+  a {
+    --apply: "hover:underline";
+  }
+
+  p,
+  ul {
+    --apply: "my-4 leading-relaxed";
+  }
+
+  ul {
+    --apply: "pl-5 list-disc";
+  }
+}
